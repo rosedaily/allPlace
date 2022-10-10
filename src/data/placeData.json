@@ -1,0 +1,109 @@
+[
+  {
+    "id" : 1,
+    "placeTitle" : "첫번째 공간",
+    "Area1" : "서울시",
+    "Area2" : "강남구",
+    "Area3" : "역삼동",
+    "placeType" : "cafe",
+    "placeImgs" :[
+      {
+        "imgId" : 1,
+        "imgUrl" : "../img/place/1-01.webp"
+      },
+      {
+        "imgId" : 2,
+        "imgUrl" : "../img/place/1-02.webp"
+      },
+      {
+        "imgId" : 3,
+        "imgUrl" : "../img/place/1-03.webp"
+      },
+      {
+        "imgId" : 4,
+        "imgUrl" : "../img/place/1-04.webp"
+      }
+    ],
+    "placeTags" : [
+      {
+        "tagId" : 1,
+        "tagTitle" : "pet"
+      },
+      {
+        "tagId" : 2,
+        "tagTitle" : "baby"
+      }
+    ]
+  },{
+    "id" : 2,
+    "placeTitle" : "두번째 공간",
+    "Area1" : "서울시",
+    "Area2" : "영등포구",
+    "Area3" : "여의도동",
+    "placeType" : "cafe",
+    "placeImgs" :[
+      {
+        "imgId" : 1,
+        "imgUrl" : "../img/place/2-01.webp"
+      },
+      {
+        "imgId" : 2,
+        "imgUrl" : "../img/place/2-02.webp"
+      },
+      {
+        "imgId" : 3,
+        "imgUrl" : "../img/place/2-03.webp"
+      },
+      {
+        "imgId" : 4,
+        "imgUrl" : "../img/place/2-04.webp"
+      }
+    ],
+    "placeTags" : [
+      {
+        "tagId" : 1,
+        "tagTitle" : "pet"
+      },
+      {
+        "tagId" : 2,
+        "tagTitle" : "baby"
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "placeTitle" : "세번째 공간",
+    "Area1" : "서울시",
+    "Area2" : "강남구",
+    "Area3" : "대치동",
+    "placeType" : "food",
+    "placeImgs" :[
+      {
+        "imgId" : 1,
+        "imgUrl" : "../img/place/3-01.webp"
+      },
+      {
+        "imgId" : 2,
+        "imgUrl" : "../img/place/3-02.webp"
+      },
+      {
+        "imgId" : 3,
+        "imgUrl" : "../img/place/3-03.webp"
+      },
+      {
+        "imgId" : 4,
+        "imgUrl" : "../img/place/3-04.webp"
+      }
+    ],
+    "placeTags" : [
+      {
+        "tagId" : 1,
+        "tagTitle" : "pet"
+      },
+      {
+        "tagId" : 2,
+        "tagTitle" : "baby"
+      }
+    ]
+  }
+]
