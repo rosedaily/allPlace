@@ -11,11 +11,11 @@ import Search from 'antd/lib/transfer/search';
 
 const Wrapper = styled.div`
   background-color : white;
-  width : 1500px;
+  width : 1400px;
 `
 
 const StyleHeader = styled.div`
-  width : 1500px;
+  width : 1400px;
   height : 75px;
   padding : 5px;
   width : calc( 100% - 32px );
@@ -41,7 +41,7 @@ const HeaderRightDiv = styled.div`
 `
 
 const StyleBody = styled.div`
-  height : 800px;
+  height : 1500px;
   padding : 10px;
 `
 const StyleFooter = styled.div`
@@ -66,7 +66,6 @@ function MainPage(props){
         <MainViewList />
       {/* <DatePicker /> */}
       {/* <Search /> */}
-
       </StyleBody>
       <StyleFooter>
         <CategoryList />

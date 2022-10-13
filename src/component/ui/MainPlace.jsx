@@ -1,35 +1,34 @@
 import React from 'react';
 import styled from 'styled-components';
-// import { Button } from 'antd';
+import { Card } from 'antd';
+
+const { Meta } = Card;
 
 const Wrapper = styled.div`
-  display : flex;
-  margin-left : 20px;
-  margin-right : 20px;
+// position : absolute;
+// left: 50%;
+// top:50%;
 `
 
 const StyleImg = styled.img`
-  width : 40px;
-  `
-  const StyleP = styled.p`
-  width : 50px;
-  font-size : 0.4em;
-  color : black;
+  width : calc( 100% );
+  height : 270px;
 `
 
 function MainPlace(props){
   const { place, placeTitle, onClick } = props;
 
   return (
-    <Wrapper>
-      <div onClick={(place) => {onClick(place.id)}}>
-        <StyleImg src={place.placeImgs[0].imgUrl}/>
-        <div>
-          <StyleP tyleP>{placeTitle}</StyleP>
-        </div>
-      </div>
+    <Wrapper onClick={(place) => {onClick(place.id)}}>
+      <Card
+        hoverable
+        style={{ width: 340 }}
+        cover={<StyleImg alt="example" src={place.placeImgs[0].imgUrl} />}
+      >
+        <Meta title={placeTitle} description={place.description}/>
+      </Card>
     </Wrapper>
-  )//dsdsd
+  )
 }
 
 export default MainPlace;

@@ -5,23 +5,24 @@
     "Area1" : "서울시",
     "Area2" : "강남구",
     "Area3" : "역삼동",
+    "description":"강남구 역삼동에 위치한 고즈넉한 카페입니다.",
     "placeType" : "cafe",
     "placeImgs" :[
       {
         "imgId" : 1,
-        "imgUrl" : "../img/place/1-01.webp"
+        "imgUrl" : "./img/place/1-01.jpg"
       },
       {
         "imgId" : 2,
-        "imgUrl" : "../img/place/1-02.webp"
+        "imgUrl" : "../img/place/1-02.jpg"
       },
       {
         "imgId" : 3,
-        "imgUrl" : "../img/place/1-03.webp"
+        "imgUrl" : "../img/place/1-03.jpg"
       },
       {
         "imgId" : 4,
-        "imgUrl" : "../img/place/1-04.webp"
+        "imgUrl" : "../../img/place/1-04.jpg"
       }
     ],
     "placeTags" : [
@@ -40,23 +41,24 @@
     "Area1" : "서울시",
     "Area2" : "영등포구",
     "Area3" : "여의도동",
+    "description":"여의도의 정원을 품은 카페입니다.",
     "placeType" : "cafe",
     "placeImgs" :[
       {
         "imgId" : 1,
-        "imgUrl" : "../img/place/2-01.webp"
+        "imgUrl" : "../img/place/2-01.jpg"
       },
       {
         "imgId" : 2,
-        "imgUrl" : "../img/place/2-02.webp"
+        "imgUrl" : "../img/place/2-02.jpg"
       },
       {
         "imgId" : 3,
-        "imgUrl" : "../img/place/2-03.webp"
+        "imgUrl" : "../img/place/2-03.jpg"
       },
       {
         "imgId" : 4,
-        "imgUrl" : "../img/place/2-04.webp"
+        "imgUrl" : "../img/place/2-04.jpg"
       }
     ],
     "placeTags" : [
@@ -76,23 +78,134 @@
     "Area1" : "서울시",
     "Area2" : "강남구",
     "Area3" : "대치동",
+    "description":"대치동 맛집을 한 번 골라봤습니다.",
     "placeType" : "food",
     "placeImgs" :[
       {
         "imgId" : 1,
-        "imgUrl" : "../img/place/3-01.webp"
+        "imgUrl" : "../img/place/3-01.jpg"
       },
       {
         "imgId" : 2,
-        "imgUrl" : "../img/place/3-02.webp"
+        "imgUrl" : "../img/place/3-02.jpg"
       },
       {
         "imgId" : 3,
-        "imgUrl" : "../img/place/3-03.webp"
+        "imgUrl" : "../img/place/3-03.jpg"
       },
       {
         "imgId" : 4,
-        "imgUrl" : "../img/place/3-04.webp"
+        "imgUrl" : "../img/place/3-04.jpg"
+      }
+    ],
+    "placeTags" : [
+      {
+        "tagId" : 1,
+        "tagTitle" : "pet"
+      },
+      {
+        "tagId" : 2,
+        "tagTitle" : "baby"
+      }
+    ]
+  }, 
+  {
+    "id" : 4,
+    "placeTitle" : "네번째 공간",
+    "Area1" : "서울시",
+    "Area2" : "강남구",
+    "Area3" : "역삼동",
+    "description":"강남구 역삼동에 위치한 고즈넉한 카페입니다.",
+    "placeType" : "cafe",
+    "placeImgs" :[
+      {
+        "imgId" : 1,
+        "imgUrl" : "./img/place/4-01.jpg"
+      },
+      {
+        "imgId" : 2,
+        "imgUrl" : "../img/place/4-02.jpg"
+      },
+      {
+        "imgId" : 3,
+        "imgUrl" : "../img/place/4-03.jpg"
+      },
+      {
+        "imgId" : 4,
+        "imgUrl" : "../../img/place/4-04.jpg"
+      }
+    ],
+    "placeTags" : [
+      {
+        "tagId" : 1,
+        "tagTitle" : "pet"
+      },
+      {
+        "tagId" : 2,
+        "tagTitle" : "baby"
+      }
+    ]
+  },{
+    "id" : 5,
+    "placeTitle" : "다섯번째 공간",
+    "Area1" : "서울시",
+    "Area2" : "영등포구",
+    "Area3" : "여의도동",
+    "description":"여의도의 정원을 품은 카페입니다.",
+    "placeType" : "cafe",
+    "placeImgs" :[
+      {
+        "imgId" : 1,
+        "imgUrl" : "../img/place/5-01.jpg"
+      },
+      {
+        "imgId" : 2,
+        "imgUrl" : "../img/place/5-02.jpg"
+      },
+      {
+        "imgId" : 3,
+        "imgUrl" : "../img/place/5-03.jpg"
+      },
+      {
+        "imgId" : 4,
+        "imgUrl" : "../img/place/5-04.jpg"
+      }
+    ],
+    "placeTags" : [
+      {
+        "tagId" : 1,
+        "tagTitle" : "pet"
+      },
+      {
+        "tagId" : 2,
+        "tagTitle" : "baby"
+      }
+    ]
+  },
+  {
+    "id" : 6,
+    "placeTitle" : "여섯번째 공간",
+    "Area1" : "서울시",
+    "Area2" : "강남구",
+    "Area3" : "대치동",
+    "description":"대치동 맛집",
+    "placeType" : "food",
+    "placeImgs" :[
+      {
+        "imgId" : 1,
+        "imgUrl" : "../img/place/6-01.jpg"
+      },
+      {
+        "imgId" : 2,
+        "imgUrl" : "../img/place/6-02.jpg"
+      },
+      {
+        "imgId" : 3,
+        "imgUrl" : "../img/place/6-03.jpg"
+      },
+      {
+        "imgId" : 4,
+        "imgUrl" : "../img/place/6-04.jpg"
       }
     ],
     "placeTags" : [
